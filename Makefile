@@ -1,0 +1,2 @@
+simulator: Heap.h Heap.cpp Patient.h Patient.cpp Doctor.h Doctor.cpp DoctorPQ.h DoctorPQ.cpp DoctorHeap.h DoctorHeap.cpp PatientPQ.h PatientPQ.cpp HospitalSimulationMgr.cpp
+	g++ Heap.cpp Patient.cpp Doctor.cpp DoctorPQ.cpp DoctorHeap.cpp PatientPQ.cpp HospitalSimulationMgr.cpp -o simulator
